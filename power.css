@@ -1,0 +1,399 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  
+  margin: 0;
+}
+
+
+ul.topnav {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+position: fixed;
+width: 100%;
+top: 0px;
+left: 0px;
+height: 80px;
+background: #242424 0% 0% no-repeat padding-box;
+box-shadow: 0px 6px 12px #00000029;
+opacity: 1;
+}
+
+ul.topnav li {
+float: right;
+margin-right: 5%;
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: #444;
+  height: 80px;
+
+}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.left {
+    float: left;
+margin-left: 5%;}
+
+
+
+
+.capa2
+{
+    margin-top: 300px;
+    text-align: center;
+}
+
+h1{
+  text-align: center;
+  
+}
+
+
+.oque
+{
+  background: #242424 0% 0% no-repeat padding-box
+}
+
+
+
+
+.letreiro
+{
+  padding-right: 0;
+  margin: 0 auto;
+}
+
+.vantagens1
+{
+  height: 20px;
+  background: #242424 0% 0% no-repeat padding-box  
+}
+
+.funcionamento
+{
+  
+}
+
+.vantagens1
+{
+  height: 20px;
+  background: #242424 0% 0% no-repeat padding-box  
+}
+
+.vantagens2
+{
+  height: 20px;
+}
+
+.vantagens3
+{
+  background: #242424 0% 0% no-repeat padding-box  
+}
+
+.vantagens4
+{
+  height: 20px; 
+}
+
+.vantagens5
+{
+  height: 20px;
+  background: #242424 0% 0% no-repeat padding-box  
+}
+
+.app
+{
+  height: 500px;
+}
+
+.container {
+background: #FFFFFF ;
+box-shadow: 0px 4px 8px #00000029;
+border-radius: 16px;
+opacity: 1;
+width: 380px;
+height: 500px;
+text-align: center;
+
+}
+
+
+
+
+.column 
+{
+  float: left;
+  width: 50%;
+  height: 700px;
+
+}
+
+.column2
+{
+  float: left;
+  width: 50%;
+  height: 600px;
+  padding-left:200px;
+  
+
+}
+.column22
+{
+  float: left;
+  width: 50%;
+  height: 600px;
+  padding-left:100px;
+  font-size: 24px;
+  color: white;
+
+}
+
+.c2
+{
+  margin-top: 0;
+  padding-left:30%;
+  
+
+}
+
+
+.column3
+{
+  float: left;
+  width: 40%;
+  height: 500px;
+  padding-left:200px;
+  padding-top: 150px;
+  
+  background: #242424;
+  font-size: 36px;
+  color: white;
+  
+    
+
+}
+
+
+.column33
+{
+  float: left;
+  width: 60%;
+  height: 500px;
+  padding-left:100px;
+  padding-top: 70px;
+  padding-right: 50px;
+  font-size: 22px;
+  color: white;
+  background: #242424
+
+}
+
+.column7 
+{
+  float: left;
+  width: 50%;
+  height: 500px;
+  padding-left:80px;
+  font-size: 24px;
+  color:black;
+  margin-bottom: 0;
+
+}
+
+.column77
+{
+  float: left;
+  width: 50%;
+  height: 500px;
+  padding-left:30px;
+  font-size: 24px;
+  color:black;
+  
+
+}
+
+.c77
+{
+
+  padding-left:150px;
+  
+
+}
+
+.c7
+{
+  margin-top: 0;
+  padding-left:240px;
+  
+
+}
+
+
+
+
+
+
+
+.row:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.button 
+{
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  top: 704px;
+  left: 1292px;
+  width: 180px;
+  height: 56px;
+  background: #E63F3F ;
+  border-radius: 28px;
+  opacity: 1;
+  color: #FFFFFF;
+}
+
+.button:hover 
+{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+
+
+.conteudo {
+    
+  flex: 90%;
+  padding: 10x;
+  padding-bottom: 30px;
+  }
+
+p{
+  padding: 10px;
+}
+
+.content
+{
+  background: #E63F3F 0% 0% no-repeat padding-box;
+border-radius: 16px 16px 0px 0px;
+opacity: 1;
+  color: #000000;
+  width: 100%;
+  padding: 20px;
+}
+
+
+
+
+.linha {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* Create four equal columns that sits next to each other */
+.coluna {
+  -ms-flex: 33%; /* IE10 */
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 4px;
+}
+
+
+.coluna img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+.footer {
+  padding-left: 100px;
+  padding-top: 25px;
+  color: white;
+  height: 60px;
+  background: #242424 0% 0% no-repeat padding-box  ;
+  list-style-type: none;
+  
+}
+
+.redes {
+
+  list-style-type: none;
+  float: right;
+  margin-right: 10%;
+ 
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .row, .navbar { flex-direction: column;}
+  
+}
+
+@media screen and (max-width: 600px) {
+    ul.topnav li.left, 
+    ul.topnav li {float: none;}
+  }
+
+  @media screen and (max-width: 800px) {
+    .coluna {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+@media screen and (max-width: 600px) {
+    .coluna {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+
