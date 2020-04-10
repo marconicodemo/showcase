@@ -83,6 +83,12 @@ h1{
 
 
 
+.letreiro1
+{
+  
+  padding-right: 0;
+  margin: 0 auto;
+}
 
 .letreiro
 {
@@ -423,13 +429,15 @@ li {
   }
 
   @media screen and (max-width: 800px) {
-    .coluna {
+    .coluna .column .column2 .column22 .column3 .column33 .column7 .column77
+     {
       -ms-flex: 50%;
       flex: 50%;
       max-width: 50%;
     }
 @media screen and (max-width: 600px) {
-    .coluna {
+    .coluna .coluna .column .column2 .column22 .column3 .column33 .column7 .column77{
+      
       -ms-flex: 100%;
       flex: 100%;
       max-width: 100%;
