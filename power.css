@@ -39,13 +39,23 @@ ul.topnav li a {
   
 }
 
+ul.topnav li b {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  
+}
+
 ul.topnav li a:hover:not(.active) {
   background-color: #444;
   height: 80px;
 
 }
 
-ul.topnav li a.active {background-color: #4CAF50;}
+
 
 ul.topnav li.left {
     float: left;
@@ -76,6 +86,7 @@ h1{
 
 .letreiro
 {
+  height: 53px;
   padding-right: 0;
   margin: 0 auto;
 }
@@ -251,6 +262,8 @@ text-align: center;
 
 
 
+
+
 .row:after 
 {
   content: "";
@@ -336,6 +349,32 @@ opacity: 1;
   width: 100%;
 }
 
+.columnF
+{
+  float: left;
+  width: 85%;
+  padding-top: 25px;
+  color:white;
+  margin-bottom: 0;
+
+}
+
+.columnFF
+{
+  float: left;
+  width: 15%;
+  padding-top: 17px;
+  color:white;
+  
+
+}
+
+li {
+  float: left;
+  margin-right: 5%;
+  }
+  
+
 
 
 
@@ -345,8 +384,7 @@ opacity: 1;
 
 .footer {
   padding-left: 100px;
-  padding-top: 25px;
-  color: white;
+  
   height: 60px;
   background: #242424 0% 0% no-repeat padding-box  ;
   list-style-type: none;
